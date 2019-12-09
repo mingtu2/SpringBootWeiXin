@@ -12,7 +12,7 @@ public class HelloWorldController {
 
     @RequestMapping("/helloWorld")
     public String helloWorld(){
-        System.out.println("springBoot测试");
+        System.out.println("springBoot测试1");
         return " Hello springBoot";
     }
 
